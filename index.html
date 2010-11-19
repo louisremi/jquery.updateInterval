@@ -1,0 +1,20 @@
+<!DOCTYPE html5>
+<html>
+  <body style="background: #141414;">
+    <div id="green" style="background: #4a0; width: 50px; height: 50px; top: 0px; left: 0px; position: absolute;"></div>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.updateInterval.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        var $green = $('#green').animate({
+            top: 500
+          , left: 800
+        }, 4000);
+        setTimeout(function() {
+          $.fx.updateInterval(200);
+        }, 2000);
+      });
+    </script>
+  </body>
+</html>
