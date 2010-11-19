@@ -58,7 +58,8 @@ jquery.updateInterval
 =====================
 
 This plugin allows you to update the frame interval and see the difference immediatly.
-To do so, it 
+To do so, it:
+
 -   changes $.fx.interval
 -   stops all animations using $.fx.stop()
 -   runs a dummy animation to keep current animation running, **using the new frame interval**.
