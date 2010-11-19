@@ -30,7 +30,7 @@ As a consequence, changes made to $.fx.interval will often not take effect immed
     // Change the frame interval after 1s
     setInterval(function(){ $.fx.interval = 200; }, 1000);
     // You guessed it, you won't see any change.
- 
+.
     // Animate an element during 2s
     $myElementA.animate({left: 800}, 2000);
     // Animate another element before first animation finishes
@@ -44,7 +44,7 @@ As a consequence, changes made to $.fx.interval will often not take effect immed
         $myElementC.animate({left: 800}, 2000);
     }, 3800);
     // All animations ran with the initial frame interval!
- 
+.
     // Animate an element
     $myElement.animate({left: 800}, 1000, function() {
       // As a callback, change the frame interval
