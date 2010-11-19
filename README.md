@@ -23,6 +23,7 @@ Not as simple as...
 
 For performance purpose, and to keep animations synchronised, jQuery uses one global interval object.
 This object is created when an animation starts and is destroyed only when there are no more animation running.
+
 As a consequence, changes made to $.fx.interval will often not take effect immediatly:
 
     // Animate an element during 2s
@@ -68,3 +69,6 @@ Usage
 =====
 
     $.fx.updateInterval(200);
+    
+[Demo](http://lrbabe.github.com/jquery.updateInterval/)
+======
